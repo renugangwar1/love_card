@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love Card 💌</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="card-wrapper" onclick="toggleEnvelope()">
+  <div class="envelope">
+    <div class="flap"></div>
+    <div class="pocket"></div>
+    <div class="letter">
+      <p class="message">Do You love ME ? 💖</p>
+    </div>
+    <div class="hearts"></div>
+  </div>
+</div>
+
+<!-- ✅ Buttons outside envelope -->
+<div class="response-buttons">
+  <button id="yes-btn">Yes 💘</button>
+  <button id="no-btn">No 💔</button>
+</div>
+
+<audio id="background-music" loop>
+  <source src="your-music-file.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<div class="love-message" id="love-message">
+  <div class="love-text">I Love You Too My cutiiee Pie! 💖</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
